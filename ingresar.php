@@ -1,8 +1,5 @@
 <?php 
-	$servername = '127.0.0.1';
-	$username = 'root';
-	$password = 'secret';
-	$db='evunidad2';
+	include('secret.php');
 	$conn = mysqli_connect($servername, $username, $password,$db);
 	$patente=$_POST['patente'];
 	$idMarca=$_POST['idMarca'];
